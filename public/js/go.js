@@ -66,6 +66,8 @@ if (localStorage.getItem("proxy") !== null) {
 var surf = document.getElementById("surf");
 var closesurf = document.getElementById("closesurf");
 var reloadsurf = document.getElementById("reloadsurf");
+var remove = document.querySelector("body > div.L3eUgb")
+remove.remove()
 surf.style.display = "initial";
 closesurf.style.display = "initial";
 reloadsurf.style.display = "initial";
